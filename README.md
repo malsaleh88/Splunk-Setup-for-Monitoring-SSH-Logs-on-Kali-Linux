@@ -40,6 +40,10 @@ sudo /opt/splunkforwarder/bin/splunk add forward-server 127.0.0.1:9997
 sudo /opt/splunkforwarder/bin/splunk restart
 ```
 
+![new search faild](https://github.com/user-attachments/assets/0326c7ff-b8aa-41fd-8107-887005ee4524)
+
+
+
 ---
 ## **2️⃣ Setup SSH Brute Force Attempts on Windows VM (192.168.1.53)**
 
@@ -96,9 +100,4 @@ index=* source="/var/log/auth.log" "Failed password"
 - Simulated **brute force attacks** from **Windows VM (192.168.1.53)** using **PuTTY**.
 - Created **Splunk Dashboard** and **alert system** for SSH brute-force detection.
 
-🔹 **GitHub Repository for Further Reference.** ✨
-
----
-### 🔗 **Author**: [Your Name]
-📅 **Last Updated:** $(date +'%Y-%m-%d')
 
