@@ -9,7 +9,7 @@ This repository documents the setup of **Splunk Forwarder** on **Kali Linux VM (
 ### **1️⃣ Install and Configure Splunk Forwarder on Kali VM (192.168.1.54)**
 ```bash
 # Download and Install Splunk Forwarder (if not installed)
-sudo dpkg -i splunkforwarder-<version>.deb
+sudo dpkg -i splunkforwarder-9.4.0-6b4ebe426ca6-linux-amd64.deb
 ```
 
 #### **Check if Splunk Forwarder is Running**
