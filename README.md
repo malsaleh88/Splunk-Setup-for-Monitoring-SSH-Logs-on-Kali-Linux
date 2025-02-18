@@ -29,7 +29,7 @@ sudo /opt/splunkforwarder/bin/splunk add monitor /var/log/auth.log
 
 #### **Forward Logs to Splunk Server**
 ```bash
-sudo /opt/splunkforwarder/bin/splunk add forward-server <SPLUNK_SERVER_IP>:9997
+sudo /opt/splunkforwarder/bin/splunk add forward-server 127.0.0.1:9997
 ```
 
 #### **Restart Splunk Forwarder**
