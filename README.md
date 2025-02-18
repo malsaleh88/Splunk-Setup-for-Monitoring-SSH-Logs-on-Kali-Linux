@@ -52,6 +52,7 @@ Run:
 ssh kali@192.168.1.54 -p 22
 # Enter incorrect password multiple times
 ```
+![putty](https://github.com/user-attachments/assets/201fa179-6dbf-4212-b4da-be03d7336a49)
 
 Verify logs are captured:
 ```bash
@@ -72,12 +73,23 @@ index=* source="/var/log/auth.log" "Failed password"
 3. Set **Visualization Type** → Bar Chart.
 4. Save the Dashboard.
 
+![dashboard](https://github.com/user-attachments/assets/6ca22c2b-3247-4816-90bb-fae4f2b3b074)
+
+![dashbourd](https://github.com/user-attachments/assets/f5134859-2e2f-44db-a3fa-2a6e86b9fdd9)
+
 ### **Trigger Alert for Brute Force Attacks**
 1. **Save the same search query as an Alert**.
 2. **Trigger Condition** → More than **5 failed login attempts in 10 minutes**.
 3. **Trigger Actions** → Send an **Email Notification**.
 
----
+
+
+![aletr1](https://github.com/user-attachments/assets/9b082605-5842-4882-9e15-6851c168f91c)
+
+
+![alert2](https://github.com/user-attachments/assets/51b0607f-c9ba-4f2a-b23b-844e0f82d9b6)
+
+
 ## ✅ **Summary**
 - Installed and configured **Splunk Forwarder** on **Kali VM (192.168.1.54)**.
 - Monitored **SSH failed logins** and forwarded logs to Splunk Server.
