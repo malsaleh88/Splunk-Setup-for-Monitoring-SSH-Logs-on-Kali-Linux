@@ -21,6 +21,9 @@ sudo /opt/splunkforwarder/bin/splunk status
 ```bash
 sudo /opt/splunkforwarder/bin/splunk list monitor
 ```
+![list](https://github.com/user-attachments/assets/ca8b9b2b-2291-4e9d-9fa9-6abe9b2d878f)
+
+
 
 #### **Add SSH Log Monitoring**
 ```bash
